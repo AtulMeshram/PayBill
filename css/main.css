@@ -1,0 +1,394 @@
+@font-face {
+  font-family: 'BTFont Regular';
+  src: local("BT Font"),
+       local("BTFont-Regular"),
+       url('css/fonts/BTFont_Rg.ttf');
+}
+
+@font-face {
+  font-family: 'BTFont Light';
+  src: local("BT Font Light"),
+       local("BTFont-Light"),
+       url('css/fonts/BTFont_Lt.ttf');
+}
+
+@font-face {
+  font-family: 'BTFont Bold';
+  src: local("BT Font Bold"),
+       local("BTFont-Bold"),
+       url('css/fonts/BTFont_Bd.ttf');
+}
+
+@font-face {
+  font-family: 'BTFont ExtraBold';
+  src: local("BT Font ExtraBold"),
+       local("BTFont-ExtraBold"),
+       url('css/fonts/BTFont_ExBd.ttf');
+}
+
+* { padding: 0; margin: 0; }
+body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-transform: none; letter-spacing: 1px;}
+
+header {
+    text-align: center;
+    height: 5em;
+    padding: 2em 5%;
+    background: #55379B;
+    color: #fff;
+}
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+header > div,
+header > div::before,
+header nav,
+header > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+header > div {
+    height: 100%;
+}
+
+header > div::before {
+    content: '';
+    height: 100%;
+}
+
+header > div h1 {
+    font-size: 2em;
+    font-style: normal;
+}
+
+header nav a {
+    padding: 0 0.6em;
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+header nav a:last-child {
+    padding-right: 0em;
+    padding-left: 10em;
+}
+
+.bill-card{
+    height: 7em;
+    padding: 2em 5%;
+    background: #FFFFFF;
+    color: #222222;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #E1E1E1;
+}
+
+.bill-card-selected{
+    background: #F1F0F6;
+}
+
+.bill-card::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.bill-card::before {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.bill-card > h2 {
+    font-size: 3em;
+}
+
+.bill-card > h3 {
+    padding-top: 0.5em;
+    font-size: 1.5em;
+}
+
+.bill-card > h3 > span {
+    font-family: 'BTFont Bold'
+}
+
+.pay-button{
+    background-color: #55379B;
+    border: none;
+    color: #FFFFFF;
+    margin: 1.5em 5%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    height: 3.0em;
+    width: 90%;
+    border-radius: 0.5em;
+    font-size: 2.0em;
+    font-family: 'BTFont Regular'
+}
+
+
+footer {
+    height: 3em;
+    padding: 2em 5%;
+    background: #F1F0F6;
+    color: #55379B;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+}
+
+footer::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+footer > div,
+footer > div::before,
+footer > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+footer > div h1 {
+    font-family: 'BTFont Bold';
+    font-size: 2.0em;
+}
+
+footer > div h2 {
+    font-family: 'BTFont Bold';
+    font-size: 2.0em;
+    position: absolute;
+    vertical-align: middle;
+    top: 31%;
+    padding-left: 73%;
+}
+
+footer > div {
+    height: 100%;
+}
+
+footer > div::before {
+    content: '';
+    height: 100%;
+}
+
+@media screen and (max-width: 720px) and (min-width: 640px){
+    
+    header {
+        height: auto;
+    }
+    
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+
+    footer > div h2 {
+        font-family: 'BTFont Bold';
+        font-size: 2.0em;
+        position: absolute;
+        vertical-align: middle;
+        top: 31%;
+        padding-left: 65%;
+    }
+    
+}
+
+@media screen and (max-width: 640px) and (min-width: 480px){
+    footer > div h2 {
+        padding-left: 63%;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 720px){
+    footer > div h2 {
+        padding-left: 71%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    footer > div h2 {
+        padding-left: 57%;
+    }
+}
+
+
+@-webkit-keyframes check {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 0;
+    width: 10px;
+  }
+  50% {
+    height: 20px;
+    width: 10px;
+  }
+}
+@-moz-keyframes check {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 0;
+    width: 10px;
+  }
+  50% {
+    height: 20px;
+    width: 10px;
+  }
+}
+@-ms-keyframes check {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 0;
+    width: 10px;
+  }
+  50% {
+    height: 20px;
+    width: 10px;
+  }
+}
+@keyframes check {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 0;
+    width: 10px;
+  }
+  50% {
+    height: 20px;
+    width: 10px;
+  }
+}
+
+.cb-wrapper {
+  right: 0em;
+  position: inherit;
+  text-align: right;
+  margin-top: -4.5em;
+}
+
+.checkbox{
+  background-color: #FFFFFF;
+  display: inline-block;
+  height: 50px;
+  margin: 0 0.25em;
+  width: 50px;
+  border-color: #C2C2C2;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.checkbox-alt {
+  background-color: #55379B;
+  display: inline-block;
+  height: 50px;
+  margin: 0 0.25em;
+  width: 50px;
+  border-radius: 6px;
+}
+
+.checkbox label, .checkbox-alt label {
+  display: block;
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+.checkbox label:after{
+  -moz-transform: scaleX(-1) rotate(135deg);
+  -ms-transform: scaleX(-1) rotate(135deg);
+  -webkit-transform: scaleX(-1) rotate(135deg);
+  transform: scaleX(-1) rotate(135deg);
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  border-right: 4px solid #FFFFFF;
+  border-top: 4px solid #FFFFFF;
+  content: '';
+  display: block;
+  height: 20px;
+  left: 14px;
+  position: absolute;
+  top: 26px;
+  width: 10px;
+}
+
+.checkbox-alt label:after {
+  -moz-transform: scaleX(-1) rotate(135deg);
+  -ms-transform: scaleX(-1) rotate(135deg);
+  -webkit-transform: scaleX(-1) rotate(135deg);
+  transform: scaleX(-1) rotate(135deg);
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  border-right: 4px solid #55379B;
+  border-top: 4px solid #55379B;
+  content: '';
+  display: block;
+  height: 20px;
+  left: 14px;
+  position: absolute;
+  top: 26px;
+  width: 10px;
+}
+
+.checkbox label:hover:after, .checkbox-alt label:hover:after {
+  border-color: #F1F0F6;
+}
+.checkbox input, .checkbox-alt input {
+  display: none;
+  
+}
+
+.checkbox-alt input:checked + label:after {
+  -webkit-animation: check 0.8s;
+  -moz-animation: check 0.8s;
+  -o-animation: check 0.8s;
+  animation: check 0.8s;
+  border-color: #FFFFFF;
+}
+.checkbox input:checked + label:after{
+  -webkit-animation: check 0.8s;
+  -moz-animation: check 0.8s;
+  -o-animation: check 0.8s;
+  animation: check 0.8s;
+  border-color: #55379B;
+}
+.checkbox.checkbox-alt label:hover:after, .checkbox-alt.checkbox-alt label:hover:after {
+  -webkit-animation: check 0.8s ease infinite;
+  -moz-animation: check 0.8s ease infinite;
+  -o-animation: check 0.8s ease infinite;
+  animation: check 0.8s ease infinite;
+}
+.checkbox.checkbox-alt input:checked + label:after, .checkbox-alt.checkbox-alt input:checked + label:after {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
