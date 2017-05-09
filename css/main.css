@@ -125,12 +125,12 @@ header nav a:last-child {
     text-decoration: none;
     display: inline-block;
     position: relative;
-    height: 30px;
+    height: 50px;
     width: 90%;
     border-radius: 5px;
     font-size: 15pt;
     font-family: 'BTFont Regular';
-    margin-bottom: 2em;
+    margin: 30px 50px;
 }
 
 
