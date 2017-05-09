@@ -134,10 +134,24 @@ header nav a:last-child {
     vertical-align: middle;
 }
 
-.pay-button::after {
+.empty-space-below-button{
+    height: 100px;
+    padding: 22px 20px;
+    background: #FFFFFF;
+    color: #222222;
+    border-style: none;
+}
+
+.empty-space-below-button::after {
     content: '';
     display: inline-block;
-    width: 25%;
+    width: 100%;
+}
+
+.empty-space-below-button::before {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
 }
 
 
