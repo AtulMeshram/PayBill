@@ -31,7 +31,7 @@ body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-tran
 
 header {
     text-align: center;
-    height: 5em;
+    height: 3.0em;
     padding: 2em 5%;
     background: #55379B;
     color: #fff;
@@ -62,7 +62,7 @@ header > div::before {
 }
 
 header > div h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: normal;
 }
 
@@ -104,12 +104,12 @@ header nav a:last-child {
 }
 
 .bill-card > h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .bill-card > h3 {
     padding-top: 0.5em;
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
 .bill-card > h3 > span {
@@ -161,12 +161,12 @@ footer > div h1 {
 
 footer > div h1 {
     font-family: 'BTFont Bold';
-    font-size: 2.0em;
+    font-size: 1.0em;
 }
 
 footer > div h2 {
     font-family: 'BTFont Bold';
-    font-size: 2.0em;
+    font-size: 1.0em;
     position: absolute;
     vertical-align: middle;
     top: 31%;
