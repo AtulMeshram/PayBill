@@ -184,14 +184,11 @@ footer > div h1 {
 footer > div h1 {
     font-family: 'BTFont Bold';
     font-size: 18px;
-    position: absolute;
-    vertical-align: middle;
-    top: 40%;
 }
 
 footer > div h2 {
     font-family: 'BTFont Bold';
-    font-size: 1.2em;
+    font-size: 18px;
     position: absolute;
     vertical-align: middle;
     top: 40%;
