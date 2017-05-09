@@ -27,7 +27,7 @@
 }
 
 * { padding: 0; margin: 0; }
-body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-transform: none;}
+body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-transform: none; text-rendering: optimizeLegibility;}
 
 header {
     text-align: center;
@@ -189,9 +189,9 @@ footer > div h1 {
 footer > div h2 {
     font-family: 'BTFont Bold';
     font-size: 18px;
-    position: absolute;
+/*     position: absolute;
     vertical-align: middle;
-    top: 40%;
+    top: 40%; */
     padding-left: 73%;
 }
 
