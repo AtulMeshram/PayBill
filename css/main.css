@@ -31,7 +31,7 @@ body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-tran
 
 header {
     text-align: center;
-    height: 50px;
+    height: 40px;
     padding: 10px 20px;
     background: #55379B;
     color: #FFFFFF;
@@ -79,7 +79,7 @@ header nav a:last-child {
 
 .bill-card{
     height: 80px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background: #FFFFFF;
     color: #222222;
     border-bottom-style: solid;
@@ -104,12 +104,12 @@ header nav a:last-child {
 }
 
 .bill-card > h2 {
-    font-size: 15pt;
+    font-size: 20pt;
 }
 
 .bill-card > h3 {
     padding-top: 0.5em;
-    font-size: 8pt;
+    font-size: 12pt;
 }
 
 .bill-card > h3 > span {
