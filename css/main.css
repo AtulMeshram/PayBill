@@ -78,8 +78,8 @@ header nav a:last-child {
 }
 
 .bill-card{
-    height: 40pt;
-    padding: 2em 5%;
+    height: 80px;
+    padding: 10px 20px;
     background: #FFFFFF;
     color: #222222;
     border-bottom-style: solid;
@@ -104,12 +104,12 @@ header nav a:last-child {
 }
 
 .bill-card > h2 {
-    font-size: 1.5em;
+    font-size: 15pt;
 }
 
 .bill-card > h3 {
     padding-top: 0.5em;
-    font-size: 1.0em;
+    font-size: 8pt;
 }
 
 .bill-card > h3 > span {
