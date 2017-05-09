@@ -78,8 +78,8 @@ header nav a:last-child {
 }
 
 .bill-card{
-    height: 65px;
-    padding: 20px 20px;
+    height: 70px;
+    padding: 22px 20px;
     background: #FFFFFF;
     color: #222222;
     border-bottom-style: solid;
@@ -289,7 +289,7 @@ footer > div::before {
   right: 0em;
   position: inherit;
   text-align: right;
-  margin-top: -30px;
+  margin-top: -45px;
 }
 
 .checkbox{
