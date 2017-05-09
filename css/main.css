@@ -134,6 +134,12 @@ header nav a:last-child {
     vertical-align: middle;
 }
 
+.pay-button::after {
+    content: '';
+    display: inline-block;
+    width: 25%;
+}
+
 
 footer {
     height: 10pt;
