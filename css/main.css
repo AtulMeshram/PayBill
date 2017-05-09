@@ -120,10 +120,11 @@ header nav a:last-child {
     background-color: #55379B;
     border: none;
     color: #FFFFFF;
-    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
     position: relative;
     height: 50px;
     width: 90%;
