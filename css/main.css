@@ -78,7 +78,7 @@ header nav a:last-child {
 }
 
 .bill-card{
-    height: 5em;
+    height: 4em;
     padding: 2em 5%;
     background: #FFFFFF;
     color: #222222;
@@ -135,7 +135,7 @@ header nav a:last-child {
 
 
 footer {
-    height: 3em;
+    height: 1.5em;
     padding: 2em 5%;
     background: #F1F0F6;
     color: #55379B;
@@ -162,12 +162,12 @@ footer > div h1 {
 
 footer > div h1 {
     font-family: 'BTFont Bold';
-    font-size: 1.0em;
+    font-size: 1.5em;
 }
 
 footer > div h2 {
     font-family: 'BTFont Bold';
-    font-size: 1.0em;
+    font-size: 1.5em;
     position: absolute;
     vertical-align: middle;
     top: 31%;
