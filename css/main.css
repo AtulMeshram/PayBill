@@ -228,7 +228,6 @@ footer > div::before {
     }
 }
 
-
 @-webkit-keyframes check {
   0% {
     height: 0;
@@ -236,11 +235,11 @@ footer > div::before {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 8px;
   }
   50% {
-    height: 20px;
-    width: 10px;
+    height: 15px;
+    width: 8px;
   }
 }
 @-moz-keyframes check {
@@ -250,11 +249,11 @@ footer > div::before {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 8px;
   }
   50% {
-    height: 20px;
-    width: 10px;
+    height: 15px;
+    width: 8px;
   }
 }
 @-ms-keyframes check {
@@ -264,11 +263,11 @@ footer > div::before {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 8px;
   }
   50% {
-    height: 20px;
-    width: 10px;
+    height: 15px;
+    width: 8px;
   }
 }
 @keyframes check {
@@ -278,11 +277,11 @@ footer > div::before {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 8px;
   }
   50% {
-    height: 20px;
-    width: 10px;
+    height: 15px;
+    width: 8px;
   }
 }
 
