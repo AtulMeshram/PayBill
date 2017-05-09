@@ -27,14 +27,14 @@
 }
 
 * { padding: 0; margin: 0; }
-body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-transform: none; letter-spacing: 1px;}
+body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-transform: none;}
 
 header {
     text-align: center;
-    height: 2.0em;
+    height: 45pt;
     padding: 2em 5%;
     background: #55379B;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 header::after {
@@ -136,7 +136,7 @@ header nav a:last-child {
 
 
 footer {
-    height: 1.0em;
+    height: 55pt;
     padding: 2em 5%;
     background: #F1F0F6;
     color: #55379B;
