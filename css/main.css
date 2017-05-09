@@ -130,7 +130,7 @@ header nav a:last-child {
     border-radius: 5px;
     font-size: 15pt;
     font-family: 'BTFont Regular';
-    margin: 30px 50px;
+    vertical-align: middle;
 }
 
 
