@@ -289,7 +289,7 @@ footer > div::before {
   right: 0em;
   position: inherit;
   text-align: right;
-  margin-top: -2.0em;
+  margin-top: 0px;
 }
 
 .checkbox{
@@ -360,7 +360,7 @@ footer > div::before {
 }
 
 .checkbox label:hover:after, .checkbox-alt label:hover:after {
-  border-color: #F1F0F6;
+/*   border-color: #F1F0F6; */
 }
 .checkbox input, .checkbox-alt input {
   display: none;
@@ -382,14 +382,14 @@ footer > div::before {
   border-color: #55379B;
 }
 .checkbox.checkbox-alt label:hover:after, .checkbox-alt.checkbox-alt label:hover:after {
-  -webkit-animation: check 0.8s ease infinite;
+/*   -webkit-animation: check 0.8s ease infinite;
   -moz-animation: check 0.8s ease infinite;
   -o-animation: check 0.8s ease infinite;
-  animation: check 0.8s ease infinite;
+  animation: check 0.8s ease infinite; */
 }
 .checkbox.checkbox-alt input:checked + label:after, .checkbox-alt.checkbox-alt input:checked + label:after {
-  -webkit-animation: none;
+/*   -webkit-animation: none;
   -moz-animation: none;
   -o-animation: none;
-  animation: none;
+  animation: none; */
 }
