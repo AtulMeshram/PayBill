@@ -32,7 +32,7 @@ body { background: #FFFFFF; font-family: 'BTFont Regular', sans-serif; text-tran
 header {
     text-align: center;
     height: 15pt;
-    padding: 2em 5%;
+    padding: 1.5em 5%;
     background: #55379B;
     color: #FFFFFF;
 }
@@ -136,7 +136,7 @@ header nav a:last-child {
 
 
 footer {
-    height: 30pt;
+    height: 15pt;
     padding: 2em 5%;
     background: #F1F0F6;
     color: #55379B;
