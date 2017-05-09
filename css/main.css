@@ -156,7 +156,7 @@ header nav a:last-child {
 
 
 footer {
-    height: 10pt;
+    height: 55px;
     padding: 2em 5%;
     background: #F1F0F6;
     color: #55379B;
@@ -183,7 +183,10 @@ footer > div h1 {
 
 footer > div h1 {
     font-family: 'BTFont Bold';
-    font-size: 18pt;
+    font-size: 18px;
+    position: absolute;
+    vertical-align: middle;
+    top: 40%;
 }
 
 footer > div h2 {
