@@ -212,7 +212,19 @@ footer > div::before {
     height: 100%;
 }
 
-@media screen and (max-width: 720px) and (min-width: 640px){
+@media screen and (max-width: 479px){
+    footer > div h2 {
+        padding-left: 57%;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 480px){
+    footer > div h2 {
+        padding-left: 65%;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 639px){
     
     header {
         height: auto;
@@ -238,21 +250,9 @@ footer > div::before {
     
 }
 
-@media screen and (max-width: 640px) and (min-width: 480px){
-    footer > div h2 {
-        padding-left: 65%;
-    }
-}
-
-@media screen and (max-width: 1080px) and (min-width: 720px){
+@media screen and (max-width: 1080px) and (min-width: 719px){
     footer > div h2 {
         padding-left: 72%;
-    }
-}
-
-@media screen and (max-width: 480px){
-    footer > div h2 {
-        padding-left: 57%;
     }
 }
 
