@@ -240,7 +240,7 @@ footer > div::before {
 
 @media screen and (max-width: 640px) and (min-width: 480px){
     footer > div h2 {
-        padding-left: 63%;
+        padding-left: 65%;
     }
 }
 
