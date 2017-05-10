@@ -233,7 +233,7 @@ footer > div::before {
         position: absolute;
         vertical-align: middle;
         top: 31%;
-        padding-left: 65%;
+        padding-left: 67%;
     }
     
 }
@@ -246,7 +246,7 @@ footer > div::before {
 
 @media screen and (max-width: 1080px) and (min-width: 720px){
     footer > div h2 {
-        padding-left: 71%;
+        padding-left: 72%;
     }
 }
 
