@@ -127,13 +127,15 @@ header nav a:last-child {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    position: relative;
+    position: absolute;
+    top: 50%;
     height: 50px;
     width: 90%;
     border-radius: 5px;
     font-size: 15pt;
     font-family: 'BTFont Regular';
     vertical-align: middle;
+  
 }
 
 .empty-space-below-button{
